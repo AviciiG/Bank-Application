@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="mainAnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_1.CreditController">
+   <children>
+      <TextField fx:id="namecredit" layoutX="82.0" layoutY="155.0" prefHeight="61.0" prefWidth="367.0" />
+      <TextField fx:id="creditAmountField" layoutX="82.0" layoutY="260.0" prefHeight="61.0" prefWidth="367.0" />
+      <TextField fx:id="termField" layoutX="75.0" layoutY="361.0" prefHeight="61.0" prefWidth="367.0" />
+      <Label layoutX="82.0" layoutY="111.0" text="Введите имя" textFill="#757575">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="223.0" text="Введите сумму" textFill="#7c7b7b">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="323.0" text="Введите срок в месяцах" textFill="#7c7777">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idcredit" layoutX="479.0" layoutY="155.0" prefHeight="61.0" prefWidth="381.0" />
+      <Label layoutX="489.0" layoutY="111.0" text="Введите ИИН" textFill="#7c7575">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="resultLabel" layoutX="463.0" layoutY="336.0" prefHeight="50.0" prefWidth="470.0" text="Результат:">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="res_button" layoutX="459.0" layoutY="291.0" mnemonicParsing="false" style="-fx-background-color: #191970;" text="Рассчитать" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <effect>
+            <Blend />
+         </effect>
+      </Button>
+      <Label layoutX="82.0" layoutY="1.0" prefHeight="75.0" prefWidth="578.0" text="Подай заявку прямo сейчас!" textFill="MIDNIGHTBLUE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="68.0" text="Рассчет аннуитетного платежа" textFill="#ff8902">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="753.0" layoutY="14.0" text="NVT Bank" textFill="#ff8a1e">
+         <font>
+            <Font name="Eras Demi ITC" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="463.0" layoutY="267.0" text="Процентная ставка 20%" textFill="#868383">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="homeButton" mnemonicParsing="false" prefHeight="58.0" prefWidth="72.0" style="-fx-background-color: white;" text="←">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

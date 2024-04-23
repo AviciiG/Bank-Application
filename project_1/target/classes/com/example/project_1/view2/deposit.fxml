@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_1.DepositController">
+   <children>
+      <Label layoutX="14.0" layoutY="53.0" text="Рассчитайте доходность вкалада!" textFill="#0d1072">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Label>
+      <TextField fx:id="firstDeposit" layoutX="25.0" layoutY="119.0" prefHeight="46.0" prefWidth="330.0" />
+      <TextField fx:id="monthDeposit" layoutX="25.0" layoutY="202.0" prefHeight="46.0" prefWidth="330.0" />
+      <TextField fx:id="idDeposit" layoutX="25.0" layoutY="284.0" prefHeight="46.0" prefWidth="330.0" />
+      <Label layoutX="25.0" layoutY="98.0" text="Начальная сумма депозита" textFill="#686060">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="178.0" text="Срок" textFill="#686060">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="263.0" text="ИИН" textFill="#686060">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="resDeposit" layoutX="25.0" layoutY="417.0" prefHeight="53.0" prefWidth="447.0" text="Результат:">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="resButton" layoutX="25.0" layoutY="364.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="191.0" style="-fx-background-color: #0d1072;" text="Рассчитать" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutX="538.0" layoutY="-2.0" prefHeight="508.0" prefWidth="364.0" style="-fx-background-color: #0d1072;">
+         <children>
+            <Label layoutX="24.0" layoutY="121.0" text="Эффективная ставка вознаграждения: " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="106.0" layoutY="154.0" text="до 14% годовых" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Circle fill="WHITE" layoutX="13.0" layoutY="133.0" radius="5.0" stroke="WHITE" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="14.0" layoutY="249.0" radius="5.0" stroke="WHITE" strokeType="INSIDE" />
+            <Label layoutX="24.0" layoutY="237.0" text="Комиссия за открытие депозита: 0 тенге" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Circle fill="WHITE" layoutX="14.0" layoutY="348.0" radius="5.0" stroke="WHITE" strokeType="INSIDE" />
+            <Label layoutX="24.0" layoutY="336.0" text="Сумма вклада без ограничений" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <CubicCurve controlX1="-50.0" controlX2="50.0" controlY1="-100.0" controlY2="100.0" endX="300.0" endY="-100.0" fill="ORANGE" layoutX="89.0" layoutY="425.0" startX="-266.0" startY="90.0" stroke="#ffa30f" />
+            <Label layoutX="196.0" layoutY="25.0" prefHeight="53.0" prefWidth="182.0" text="NVT Bank" textFill="ORANGE">
+               <font>
+                  <Font name="Eras Demi ITC" size="35.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="homeButton" layoutX="-9.0" layoutY="-2.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="68.0" style="-fx-background-color: white;" text="←" textFill="#030303">
+         <font>
+            <Font size="27.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

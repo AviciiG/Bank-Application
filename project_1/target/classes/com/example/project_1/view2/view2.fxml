@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.project_1.View2Controller">
+   <children>
+      <AnchorPane layoutX="504.0" prefHeight="500.0" prefWidth="396.0" style="-fx-background-color: #061283;">
+         <children>
+            <Label layoutX="14.0" layoutY="127.0" prefHeight="94.0" prefWidth="297.0" text="Выберите" textFill="#ffbf51">
+               <font>
+                  <Font name="System Bold" size="58.0" />
+               </font>
+               <effect>
+                  <Blend />
+               </effect>
+            </Label>
+            <Label layoutX="226.0" layoutY="174.0" prefHeight="112.0" prefWidth="137.0" text="услугу!" textFill="#fafce9">
+               <font>
+                  <Font name="System Bold" size="34.0" />
+               </font>
+            </Label>
+            <Label layoutX="226.0" prefHeight="52.0" prefWidth="175.0" text="NVT Bank" textFill="#c9a36e">
+               <font>
+                  <Font name="Eras Demi ITC" size="35.0" />
+               </font>
+            </Label>
+            <Circle fill="#1a38a8" layoutX="338.0" layoutY="421.0" radius="112.0" stroke="#ffb92d" strokeType="INSIDE" strokeWidth="10.0">
+               <effect>
+                  <DropShadow />
+               </effect></Circle>
+         </children></AnchorPane>
+
+      <Button fx:id="CreditButton" layoutX="141.0" layoutY="117.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="255.0" style="-fx-background-color: orange;" text="Оформить кредит"> <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+
+      <Button fx:id="IpotekaButton" layoutX="141.0" layoutY="205.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="255.0" style="-fx-background-color: orange;" text="Рассчет ипотеки">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Blend>
+               <topInput>
+                  <DropShadow />
+               </topInput>
+            </Blend>
+         </effect></Button>
+
+      <Button fx:id="DepositButton" layoutX="138.0" layoutY="297.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="262.0" style="-fx-background-color: orange;" text="Депозит">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Blend>
+               <topInput>
+                  <DropShadow />
+               </topInput>
+            </Blend>
+         </effect></Button>
+
+      <Circle fill="#ffab35" layoutX="28.0" layoutY="38.0" radius="100.0" stroke="#0e287c" strokeType="INSIDE" strokeWidth="8.0">
+         <effect>
+            <DropShadow />
+         </effect></Circle>
+      <Button fx:id="accountButton" layoutX="141.0" layoutY="383.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="255.0" style="-fx-background-color: orange;" text="Мой счет">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+
+   </children>
+</AnchorPane>
